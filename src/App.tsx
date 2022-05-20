@@ -1,10 +1,13 @@
 import React from 'react';
+import PageList from './components/PageList';
+import Introduction from './pages/Introduction';
+import Summary from './pages/Summary';
 
 function App() {
+	const pages = [<Introduction />, <Summary />];
 	return (
-		<div className="bg-slate-900 p-24 h-screen">
-			<h1 className="text-white text-6xl">React v18</h1>
-			<h2 className="text-white text-4xl my-6">Introdução</h2>
+		<div className="bg-neutral-900 p-24 h-screen">
+			<PageList pages={pages} finalPageNumber={pages.length} />
 		</div>
 	);
 }
