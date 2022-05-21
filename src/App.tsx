@@ -1,10 +1,10 @@
 import React from 'react';
 import PageList from './components/PageList';
 import Introduction from './pages/Introduction';
-import Summary from './pages/Summary';
+import MainFeature from './pages/MainFeature';
 
 function App() {
-	const pages = [<Introduction />, <Summary />];
+	const pages = [<Introduction />, <MainFeature />];
 	return (
 		<div className="bg-neutral-900 p-24 h-screen">
 			<PageList pages={pages} finalPageNumber={pages.length} />

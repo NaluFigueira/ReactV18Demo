@@ -9,10 +9,7 @@ const header: PageHeaderProps = {
 function Introduction() {
 	return (
 		<PageContainer header={header}>
-			<ol
-				type="1"
-				className="list-decimal list-inside text-xl leading-6 leading-loose"
-			>
+			<ol type="1" className="list-decimal list-inside text-3xl leading-loose">
 				<li>Resumo da nova versão</li>
 				<li>Batching automático</li>
 				<li>Transições</li>
