@@ -10,10 +10,10 @@ const PageContainer: React.FC<PageContainerProps> = ({ header, children }) => {
 	const { mainTitle, subTitle } = header;
 
 	return (
-		<>
+		<div>
 			<PageHeader mainTitle={mainTitle} subTitle={subTitle} />
 			{children}
-		</>
+		</div>
 	);
 };
 
