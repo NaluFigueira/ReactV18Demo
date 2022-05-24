@@ -12,3 +12,8 @@ li,
 p {
 	color: rgb(255 255 255);
 }
+
+.with-scroll {
+	height: 70vh;
+	overflow-y: scroll;
+}

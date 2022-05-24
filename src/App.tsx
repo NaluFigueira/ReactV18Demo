@@ -2,7 +2,7 @@ import React from 'react';
 import PageList from './components/PageList';
 import Adoption from './pages/Adoption';
 import AutomaticBatching from './pages/AutomaticBatching';
-import WithoutTransitions from './pages/WithouTransitions';
+import WithoutTransitions from './pages/WithoutTransitions';
 import FlushAsync from './pages/FlushAsync';
 import Introduction from './pages/Introduction';
 import MainFeature from './pages/MainFeature';
