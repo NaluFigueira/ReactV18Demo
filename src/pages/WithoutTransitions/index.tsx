@@ -1,5 +1,5 @@
 import React from 'react';
-import SearchWithoutTransitions from '../../components/AutoCompleteInput/ComponentWithoutTransitions';
+import ComponentWithoutTransitions from '../../components/AutoCompleteInput/ComponentWithoutTransitions';
 import PageCode from '../../components/PageCode';
 import PageContainer from '../../components/PageContainer';
 import { PageHeaderProps } from '../../components/PageHeader';
@@ -47,8 +47,8 @@ const WithoutTransitions: React.FC = () => {
 				<div className="w-2/3">
 					<PageCode code={code} />
 				</div>
-				<div className="sticky w-1/3 ml-10 top-0 right-0">
-					<SearchWithoutTransitions />
+				<div className="sticky w-1/3 top-0 right-0 ml-10 h-fit">
+					<ComponentWithoutTransitions />
 				</div>
 			</div>
 		</PageContainer>

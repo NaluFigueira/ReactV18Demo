@@ -1,5 +1,5 @@
 import React from 'react';
-import SearchWithTransitions from '../../components/AutoCompleteInput/ComponentWithTransitions';
+import ComponentWithTransitions from '../../components/AutoCompleteInput/ComponentWithTransitions';
 import PageCode from '../../components/PageCode';
 import PageContainer from '../../components/PageContainer';
 import { PageHeaderProps } from '../../components/PageHeader';
@@ -48,7 +48,7 @@ const Transitions: React.FC = () => {
 					<PageCode code={code} />
 				</div>
 				<div className="sticky w-1/3 top-0 right-0 ml-10 h-fit">
-					<SearchWithTransitions />
+					<ComponentWithTransitions />
 				</div>
 			</div>
 		</PageContainer>
