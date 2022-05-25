@@ -10,6 +10,7 @@ import ServerComponents from './pages/ServerComponents';
 import Transitions from './pages/Transitions';
 import Suspense from './pages/Suspense';
 import NewOnSuspense from './pages/NewOnSuspense';
+import DeferredValue from './pages/DeferredValue';
 
 function App() {
 	const pages = [
@@ -23,6 +24,7 @@ function App() {
 		<Transitions />,
 		<Suspense />,
 		<NewOnSuspense />,
+		<DeferredValue />,
 	];
 	return (
 		<div className="bg-neutral-900 p-16 h-screen overflow-y-scroll">

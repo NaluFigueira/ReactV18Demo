@@ -14,9 +14,9 @@ function Introduction() {
 				<li>Batching automático</li>
 				<li>Transições</li>
 				<li>Suspense</li>
-				<li>Client and Server Rendering APIs</li>
+				<li>useDeferredValue</li>
 				<li>Novos comportamentos do Strict Mode</li>
-				<li>Novo hook: useDeferredValue</li>
+				<li>Client and Server Rendering APIs</li>
 			</ol>
 		</PageContainer>
 	);

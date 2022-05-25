@@ -12,7 +12,7 @@ const Input: React.FC<InputProps> = ({ onChange, value }) => {
 			type="text"
 			autoComplete="off"
 			className="p-2 w-2/3 border-black"
-			placeholder="Busque o produto..."
+			placeholder="Inisira um texto..."
 			onChange={onChange}
 			value={value}
 		/>
