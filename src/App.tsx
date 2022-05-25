@@ -11,6 +11,7 @@ import Transitions from './pages/Transitions';
 import Suspense from './pages/Suspense';
 import NewOnSuspense from './pages/NewOnSuspense';
 import DeferredValue from './pages/DeferredValue';
+import StrictMode from './pages/StrictMode';
 
 function App() {
 	const pages = [
@@ -25,6 +26,7 @@ function App() {
 		<Suspense />,
 		<NewOnSuspense />,
 		<DeferredValue />,
+		<StrictMode />,
 	];
 	return (
 		<div className="bg-neutral-900 p-16 h-screen overflow-y-scroll">
