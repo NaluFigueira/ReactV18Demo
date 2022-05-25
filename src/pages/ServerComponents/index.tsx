@@ -1,8 +1,8 @@
 import React from 'react';
-import PageContainer from '../../components/PageContainer';
-import { PageHeaderProps } from '../../components/PageHeader';
 import ReactBundleImage from '../../assets/react_bundle_problem.png';
 import ReactServerComponentsImage from '../../assets/react_server_components.png';
+import PageContainer from '../../components/PageComponents/PageContainer';
+import { PageHeaderProps } from '../../components/PageComponents/PageHeader';
 
 const header: PageHeaderProps = {
 	mainTitle: 'Resumo da nova versão',

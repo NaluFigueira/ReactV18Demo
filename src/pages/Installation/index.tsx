@@ -1,7 +1,7 @@
 import React from 'react';
-import PageCode from '../../components/PageCode';
-import PageContainer from '../../components/PageContainer';
-import { PageHeaderProps } from '../../components/PageHeader';
+import PageCode from '../../components/PageComponents/PageCode';
+import PageContainer from '../../components/PageComponents/PageContainer';
+import { PageHeaderProps } from '../../components/PageComponents/PageHeader';
 
 const header: PageHeaderProps = {
 	mainTitle: 'Como utilizar as novas funcionalidades',

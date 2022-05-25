@@ -1,6 +1,6 @@
 import React from 'react';
-import PageContainer from '../../components/PageContainer';
-import { PageHeaderProps } from '../../components/PageHeader';
+import PageContainer from '../../components/PageComponents/PageContainer';
+import { PageHeaderProps } from '../../components/PageComponents/PageHeader';
 
 const header: PageHeaderProps = {
 	mainTitle: 'Strict Mode',

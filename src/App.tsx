@@ -1,5 +1,4 @@
 import React from 'react';
-import PageList from './components/PageList';
 import Adoption from './pages/Adoption';
 import AutomaticBatching from './pages/AutomaticBatching';
 import WithoutTransitions from './pages/WithoutTransitions';
@@ -13,6 +12,7 @@ import NewOnSuspense from './pages/NewOnSuspense';
 import DeferredValue from './pages/DeferredValue';
 import StrictMode from './pages/StrictMode';
 import Installation from './pages/Installation';
+import PageList from './components/PageComponents/PageList';
 
 function App() {
 	const pages = [
@@ -30,6 +30,7 @@ function App() {
 		<StrictMode />,
 		<Installation />,
 	];
+
 	return (
 		<div className="bg-neutral-900 p-16 h-screen overflow-y-scroll">
 			<PageList pages={pages} finalPageNumber={pages.length} />
