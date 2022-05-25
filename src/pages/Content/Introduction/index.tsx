@@ -1,6 +1,6 @@
 import React from 'react';
-import PageContainer from '../../components/PageComponents/PageContainer';
-import { PageHeaderProps } from '../../components/PageComponents/PageHeader';
+import PageContainer from '../../../components/PageComponents/PageContainer';
+import { PageHeaderProps } from '../../../components/PageComponents/PageHeader';
 
 const header: PageHeaderProps = {
 	mainTitle: 'Tech Talk - React v18',
@@ -15,7 +15,7 @@ function Introduction() {
 				<li>Transições</li>
 				<li>Suspense</li>
 				<li>useDeferredValue</li>
-				<li>Novos comportamentos do Strict Mode</li>
+				<li>Novo comportamento do Strict Mode</li>
 				<li>Como utilizar as novas funcionalidades</li>
 			</ol>
 		</PageContainer>

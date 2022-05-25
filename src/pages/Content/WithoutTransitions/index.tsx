@@ -1,8 +1,8 @@
 import React from 'react';
-import ComponentWithoutTransitions from '../../components/ExampleComponents/AutoCompleteInput/ComponentWithoutTransitions';
-import PageCode from '../../components/PageComponents/PageCode';
-import PageContainer from '../../components/PageComponents/PageContainer';
-import { PageHeaderProps } from '../../components/PageComponents/PageHeader';
+import ComponentWithoutTransitions from '../../../components/ExampleComponents/AutoCompleteInput/ComponentWithoutTransitions';
+import PageCode from '../../../components/PageComponents/PageCode';
+import PageContainer from '../../../components/PageComponents/PageContainer';
+import { PageHeaderProps } from '../../../components/PageComponents/PageHeader';
 
 const header: PageHeaderProps = {
 	mainTitle: 'Múltiplas atualizaçōes em um único evento',

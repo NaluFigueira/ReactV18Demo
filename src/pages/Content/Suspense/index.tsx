@@ -1,8 +1,8 @@
 import React from 'react';
-import ComponentWithSuspense from '../../components/ExampleComponents/AmbevLogo/ComponentWithSuspense';
-import PageCode from '../../components/PageComponents/PageCode';
-import PageContainer from '../../components/PageComponents/PageContainer';
-import { PageHeaderProps } from '../../components/PageComponents/PageHeader';
+import ComponentWithSuspense from '../../../components/ExampleComponents/AmbevLogo/ComponentWithSuspense';
+import PageCode from '../../../components/PageComponents/PageCode';
+import PageContainer from '../../../components/PageComponents/PageContainer';
+import { PageHeaderProps } from '../../../components/PageComponents/PageHeader';
 
 const header: PageHeaderProps = {
 	mainTitle: 'Suspense',
