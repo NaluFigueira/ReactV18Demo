@@ -16,7 +16,7 @@ function Introduction() {
 				<li>Suspense</li>
 				<li>useDeferredValue</li>
 				<li>Novos comportamentos do Strict Mode</li>
-				<li>Client and Server Rendering APIs</li>
+				<li>Como utilizar as novas funcionalidades</li>
 			</ol>
 		</PageContainer>
 	);
