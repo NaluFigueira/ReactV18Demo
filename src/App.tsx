@@ -8,6 +8,8 @@ import Introduction from './pages/Introduction';
 import MainFeature from './pages/MainFeature';
 import ServerComponents from './pages/ServerComponents';
 import Transitions from './pages/Transitions';
+import Suspense from './pages/Suspense';
+import NewOnSuspense from './pages/NewOnSuspense';
 
 function App() {
 	const pages = [
@@ -19,6 +21,8 @@ function App() {
 		<FlushAsync />,
 		<WithoutTransitions />,
 		<Transitions />,
+		<Suspense />,
+		<NewOnSuspense />,
 	];
 	return (
 		<div className="bg-neutral-900 p-16 h-screen overflow-y-scroll">
