@@ -13,6 +13,7 @@ function Introduction() {
 				<li>Resumo da nova versão</li>
 				<li>Batching automático</li>
 				<li>Transições</li>
+				<li>Suspense</li>
 				<li>Client and Server Rendering APIs</li>
 				<li>Novos comportamentos do Strict Mode</li>
 				<li>Novo hook: useDeferredValue</li>
