@@ -10,10 +10,6 @@
 
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/NaluFigueira/ReactV18Demo.svg">
 
-  <a href="https://www.codacy.com/app/NaluFigueira/ReactV18Demo?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=NaluFigueira/ReactV18Demo&amp;utm_campaign=Badge_Grade">
-    <img alt="Codacy grade" src="https://img.shields.io/codacy/grade/1b577a07dda843aba09f4bc55d1af8fc.svg">
-  </a>
-
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/NaluFigueira/ReactV18Demo.svg">
   <a href="https://github.com/NaluFigueira/ReactV18Demo/commits/master">
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/NaluFigueira/ReactV18Demo.svg">
